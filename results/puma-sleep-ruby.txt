@@ -2,22 +2,22 @@ httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=4 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
 Maximum connect burst length: 1
 
-Total: connections 512 requests 512 replies 512 test-duration 127.853 s
+Total: connections 512 requests 512 replies 512 test-duration 127.953 s
 
-Connection rate: 4.0 conn/s (249.7 ms/conn, <=1 concurrent connections)
-Connection time [ms]: min 101.5 avg 102.7 max 125.3 median 102.5 stddev 2.3
-Connection time [ms]: connect 0.1
+Connection rate: 4.0 conn/s (249.9 ms/conn, <=2 concurrent connections)
+Connection time [ms]: min 141.3 avg 197.7 max 306.4 median 201.5 stddev 21.1
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 4.0 req/s (249.7 ms/req)
+Request rate: 4.0 req/s (249.9 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 4.0 avg 4.0 max 4.0 stddev 0.0 (25 samples)
-Reply time [ms]: response 102.1 transfer 0.4
+Reply rate [replies/s]: min 4.0 avg 4.0 max 4.2 stddev 0.0 (25 samples)
+Reply time [ms]: response 197.7 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 26.01 system 101.64 (user 20.3% system 79.5% total 99.8%)
+CPU time [s]: user 34.87 system 93.09 (user 27.3% system 72.8% total 100.0%)
 Net I/O: 1.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
@@ -26,22 +26,22 @@ httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=8 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
 Maximum connect burst length: 1
 
-Total: connections 512 requests 512 replies 512 test-duration 63.978 s
+Total: connections 512 requests 512 replies 512 test-duration 64.076 s
 
-Connection rate: 8.0 conn/s (125.0 ms/conn, <=2 concurrent connections)
-Connection time [ms]: min 101.4 avg 102.5 max 127.4 median 102.5 stddev 2.4
-Connection time [ms]: connect 0.1
+Connection rate: 8.0 conn/s (125.1 ms/conn, <=3 concurrent connections)
+Connection time [ms]: min 142.3 avg 199.4 max 283.0 median 201.5 stddev 20.7
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 8.0 req/s (125.0 ms/req)
+Request rate: 8.0 req/s (125.1 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 8.0 avg 8.0 max 8.0 stddev 0.0 (12 samples)
-Reply time [ms]: response 102.1 transfer 0.4
+Reply rate [replies/s]: min 7.8 avg 8.0 max 8.0 stddev 0.1 (12 samples)
+Reply time [ms]: response 199.4 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 11.19 system 52.78 (user 17.5% system 82.5% total 100.0%)
+CPU time [s]: user 16.35 system 47.73 (user 25.5% system 74.5% total 100.0%)
 Net I/O: 2.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
@@ -50,22 +50,22 @@ httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=12 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
 Maximum connect burst length: 1
 
-Total: connections 512 requests 512 replies 512 test-duration 42.686 s
+Total: connections 512 requests 512 replies 512 test-duration 42.785 s
 
-Connection rate: 12.0 conn/s (83.4 ms/conn, <=2 concurrent connections)
-Connection time [ms]: min 101.5 avg 102.6 max 127.6 median 102.5 stddev 2.1
+Connection rate: 12.0 conn/s (83.6 ms/conn, <=4 concurrent connections)
+Connection time [ms]: min 141.1 avg 197.8 max 300.5 median 201.5 stddev 21.6
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 12.0 req/s (83.4 ms/req)
+Request rate: 12.0 req/s (83.6 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 11.8 avg 12.0 max 12.0 stddev 0.1 (8 samples)
-Reply time [ms]: response 102.2 transfer 0.4
+Reply rate [replies/s]: min 11.5 avg 12.0 max 12.2 stddev 0.3 (8 samples)
+Reply time [ms]: response 197.7 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 6.70 system 35.96 (user 15.7% system 84.2% total 99.9%)
+CPU time [s]: user 10.78 system 32.00 (user 25.2% system 74.8% total 100.0%)
 Net I/O: 3.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
@@ -74,311 +74,311 @@ httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=16 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
 Maximum connect burst length: 1
 
-Total: connections 512 requests 512 replies 512 test-duration 32.040 s
+Total: connections 512 requests 512 replies 512 test-duration 32.139 s
 
-Connection rate: 16.0 conn/s (62.6 ms/conn, <=3 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.9 max 129.2 median 102.5 stddev 3.0
+Connection rate: 15.9 conn/s (62.8 ms/conn, <=6 concurrent connections)
+Connection time [ms]: min 143.2 avg 201.3 max 310.5 median 201.5 stddev 22.2
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 16.0 req/s (62.6 ms/req)
+Request rate: 15.9 req/s (62.8 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 15.8 avg 16.0 max 16.0 stddev 0.1 (6 samples)
-Reply time [ms]: response 102.4 transfer 0.4
+Reply rate [replies/s]: min 15.4 avg 15.9 max 16.0 stddev 0.2 (6 samples)
+Reply time [ms]: response 201.1 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 4.73 system 27.19 (user 14.7% system 84.9% total 99.6%)
+CPU time [s]: user 7.71 system 24.43 (user 24.0% system 76.0% total 100.0%)
 Net I/O: 4.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=20 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 2
 
-Total: connections 512 requests 512 replies 512 test-duration 25.653 s
+Total: connections 512 requests 512 replies 512 test-duration 25.751 s
 
-Connection rate: 20.0 conn/s (50.1 ms/conn, <=3 concurrent connections)
-Connection time [ms]: min 101.4 avg 102.9 max 125.2 median 102.5 stddev 3.1
-Connection time [ms]: connect 0.1
+Connection rate: 19.9 conn/s (50.3 ms/conn, <=7 concurrent connections)
+Connection time [ms]: min 146.5 avg 204.4 max 297.2 median 201.5 stddev 22.9
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 20.0 req/s (50.1 ms/req)
+Request rate: 19.9 req/s (50.3 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 19.6 avg 19.9 max 20.0 stddev 0.2 (5 samples)
-Reply time [ms]: response 102.4 transfer 0.4
+Reply rate [replies/s]: min 19.2 avg 19.8 max 20.4 stddev 0.5 (5 samples)
+Reply time [ms]: response 204.4 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 3.60 system 22.05 (user 14.0% system 85.9% total 100.0%)
+CPU time [s]: user 6.11 system 19.65 (user 23.7% system 76.3% total 100.0%)
 Net I/O: 5.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=24 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 2
 
-Total: connections 512 requests 512 replies 512 test-duration 21.394 s
+Total: connections 512 requests 512 replies 512 test-duration 21.493 s
 
-Connection rate: 23.9 conn/s (41.8 ms/conn, <=4 concurrent connections)
-Connection time [ms]: min 101.4 avg 102.5 max 127.5 median 102.5 stddev 1.8
-Connection time [ms]: connect 0.1
+Connection rate: 23.8 conn/s (42.0 ms/conn, <=8 concurrent connections)
+Connection time [ms]: min 142.0 avg 201.8 max 280.5 median 201.5 stddev 17.1
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 23.9 req/s (41.8 ms/req)
+Request rate: 23.8 req/s (42.0 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 23.6 avg 23.9 max 24.0 stddev 0.2 (4 samples)
-Reply time [ms]: response 102.0 transfer 0.4
+Reply rate [replies/s]: min 23.2 avg 23.8 max 24.0 stddev 0.4 (4 samples)
+Reply time [ms]: response 201.8 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 2.86 system 18.53 (user 13.4% system 86.6% total 100.0%)
+CPU time [s]: user 4.85 system 16.65 (user 22.6% system 77.4% total 100.0%)
 Net I/O: 6.0 KB/s (0.0*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=28 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 2
 
-Total: connections 512 requests 512 replies 512 test-duration 18.353 s
+Total: connections 512 requests 512 replies 512 test-duration 18.480 s
 
-Connection rate: 27.9 conn/s (35.8 ms/conn, <=4 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.9 max 129.7 median 102.5 stddev 2.9
-Connection time [ms]: connect 0.1
+Connection rate: 27.7 conn/s (36.1 ms/conn, <=9 concurrent connections)
+Connection time [ms]: min 144.1 avg 204.4 max 308.8 median 201.5 stddev 19.6
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 27.9 req/s (35.8 ms/req)
+Request rate: 27.7 req/s (36.1 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 27.6 avg 27.9 max 28.0 stddev 0.2 (3 samples)
-Reply time [ms]: response 102.4 transfer 0.4
+Reply rate [replies/s]: min 27.0 avg 27.7 max 28.2 stddev 0.6 (3 samples)
+Reply time [ms]: response 204.3 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 2.36 system 15.98 (user 12.9% system 87.1% total 100.0%)
-Net I/O: 7.0 KB/s (0.1*10^6 bps)
+CPU time [s]: user 3.94 system 14.54 (user 21.3% system 78.7% total 100.0%)
+Net I/O: 6.9 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=32 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 2
 
-Total: connections 512 requests 512 replies 512 test-duration 16.073 s
+Total: connections 512 requests 512 replies 512 test-duration 16.170 s
 
-Connection rate: 31.9 conn/s (31.4 ms/conn, <=5 concurrent connections)
-Connection time [ms]: min 101.4 avg 102.6 max 126.6 median 102.5 stddev 2.3
-Connection time [ms]: connect 0.1
+Connection rate: 31.7 conn/s (31.6 ms/conn, <=10 concurrent connections)
+Connection time [ms]: min 142.8 avg 202.0 max 274.7 median 201.5 stddev 17.1
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 31.9 req/s (31.4 ms/req)
+Request rate: 31.7 req/s (31.6 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 31.4 avg 31.8 max 32.0 stddev 0.3 (3 samples)
-Reply time [ms]: response 102.0 transfer 0.4
+Reply rate [replies/s]: min 30.8 avg 31.6 max 32.0 stddev 0.7 (3 samples)
+Reply time [ms]: response 202.0 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 1.97 system 14.10 (user 12.2% system 87.7% total 100.0%)
-Net I/O: 8.0 KB/s (0.1*10^6 bps)
+CPU time [s]: user 3.54 system 12.63 (user 21.9% system 78.1% total 100.0%)
+Net I/O: 7.9 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=36 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 3
 
-Total: connections 512 requests 512 replies 512 test-duration 14.297 s
+Total: connections 512 requests 512 replies 512 test-duration 14.396 s
 
-Connection rate: 35.8 conn/s (27.9 ms/conn, <=5 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.7 max 126.6 median 102.5 stddev 2.4
-Connection time [ms]: connect 0.1
+Connection rate: 35.6 conn/s (28.1 ms/conn, <=11 concurrent connections)
+Connection time [ms]: min 141.6 avg 204.9 max 283.8 median 201.5 stddev 17.5
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 35.8 req/s (27.9 ms/req)
+Request rate: 35.6 req/s (28.1 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 35.4 avg 35.7 max 36.0 stddev 0.4 (2 samples)
-Reply time [ms]: response 102.2 transfer 0.4
+Reply rate [replies/s]: min 34.5 avg 35.3 max 36.2 stddev 1.2 (2 samples)
+Reply time [ms]: response 204.8 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 1.66 system 12.63 (user 11.6% system 88.3% total 99.9%)
-Net I/O: 9.0 KB/s (0.1*10^6 bps)
+CPU time [s]: user 3.20 system 11.20 (user 22.2% system 77.8% total 100.0%)
+Net I/O: 8.9 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=40 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 3
 
-Total: connections 512 requests 512 replies 512 test-duration 12.878 s
+Total: connections 512 requests 512 replies 512 test-duration 13.032 s
 
-Connection rate: 39.8 conn/s (25.2 ms/conn, <=6 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.7 max 129.4 median 102.5 stddev 3.0
-Connection time [ms]: connect 0.1
+Connection rate: 39.3 conn/s (25.5 ms/conn, <=12 concurrent connections)
+Connection time [ms]: min 144.6 avg 203.3 max 300.2 median 201.5 stddev 17.3
+Connection time [ms]: connect 0.2
 Connection length [replies/conn]: 1.000
 
-Request rate: 39.8 req/s (25.2 ms/req)
+Request rate: 39.3 req/s (25.5 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 39.2 avg 39.6 max 40.0 stddev 0.6 (2 samples)
-Reply time [ms]: response 102.1 transfer 0.4
+Reply rate [replies/s]: min 38.0 avg 39.2 max 40.4 stddev 1.7 (2 samples)
+Reply time [ms]: response 203.1 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 1.43 system 11.44 (user 11.1% system 88.9% total 100.0%)
-Net I/O: 9.9 KB/s (0.1*10^6 bps)
+CPU time [s]: user 2.70 system 10.34 (user 20.7% system 79.3% total 100.0%)
+Net I/O: 9.8 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=44 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 3
 
-Total: connections 512 requests 512 replies 512 test-duration 11.716 s
+Total: connections 512 requests 512 replies 512 test-duration 11.815 s
 
-Connection rate: 43.7 conn/s (22.9 ms/conn, <=6 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.7 max 125.5 median 102.5 stddev 2.6
-Connection time [ms]: connect 0.1
+Connection rate: 43.3 conn/s (23.1 ms/conn, <=14 concurrent connections)
+Connection time [ms]: min 142.4 avg 203.2 max 272.9 median 201.5 stddev 15.9
+Connection time [ms]: connect 0.0
 Connection length [replies/conn]: 1.000
 
-Request rate: 43.7 req/s (22.9 ms/req)
+Request rate: 43.3 req/s (23.1 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 43.2 avg 43.6 max 44.0 stddev 0.6 (2 samples)
-Reply time [ms]: response 102.2 transfer 0.4
+Reply rate [replies/s]: min 41.7 avg 42.9 max 44.1 stddev 1.7 (2 samples)
+Reply time [ms]: response 203.2 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 1.26 system 10.46 (user 10.7% system 89.3% total 100.0%)
-Net I/O: 10.9 KB/s (0.1*10^6 bps)
+CPU time [s]: user 2.33 system 9.49 (user 19.7% system 80.3% total 100.0%)
+Net I/O: 10.8 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=48 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 3
 
-Total: connections 512 requests 512 replies 512 test-duration 10.749 s
+Total: connections 512 requests 512 replies 512 test-duration 10.907 s
 
-Connection rate: 47.6 conn/s (21.0 ms/conn, <=7 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.6 max 126.3 median 102.5 stddev 2.4
+Connection rate: 46.9 conn/s (21.3 ms/conn, <=15 concurrent connections)
+Connection time [ms]: min 141.0 avg 203.5 max 260.4 median 201.5 stddev 15.8
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 47.6 req/s (21.0 ms/req)
+Request rate: 46.9 req/s (21.3 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 47.2 avg 47.6 max 48.0 stddev 0.6 (2 samples)
-Reply time [ms]: response 102.1 transfer 0.4
+Reply rate [replies/s]: min 45.8 avg 47.0 max 48.2 stddev 1.7 (2 samples)
+Reply time [ms]: response 203.4 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 1.11 system 9.64 (user 10.3% system 89.7% total 100.0%)
-Net I/O: 11.9 KB/s (0.1*10^6 bps)
+CPU time [s]: user 2.15 system 8.76 (user 19.7% system 80.3% total 100.0%)
+Net I/O: 11.7 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=52 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 4
 
-Total: connections 512 requests 512 replies 512 test-duration 9.930 s
+Total: connections 512 requests 512 replies 512 test-duration 10.083 s
 
-Connection rate: 51.6 conn/s (19.4 ms/conn, <=7 concurrent connections)
-Connection time [ms]: min 101.4 avg 102.9 max 127.6 median 102.5 stddev 3.1
+Connection rate: 50.8 conn/s (19.7 ms/conn, <=15 concurrent connections)
+Connection time [ms]: min 148.6 avg 203.3 max 280.8 median 201.5 stddev 16.3
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 51.6 req/s (19.4 ms/req)
+Request rate: 50.8 req/s (19.7 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 51.0 avg 51.0 max 51.0 stddev 0.0 (1 samples)
-Reply time [ms]: response 102.4 transfer 0.4
+Reply rate [replies/s]: min 50.0 avg 51.0 max 52.0 stddev 1.4 (2 samples)
+Reply time [ms]: response 203.3 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 0.99 system 8.92 (user 10.0% system 89.9% total 99.8%)
-Net I/O: 12.9 KB/s (0.1*10^6 bps)
+CPU time [s]: user 2.04 system 8.04 (user 20.3% system 79.7% total 100.0%)
+Net I/O: 12.7 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=56 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 4
 
-Total: connections 512 requests 512 replies 512 test-duration 9.228 s
+Total: connections 512 requests 512 replies 512 test-duration 9.327 s
 
-Connection rate: 55.5 conn/s (18.0 ms/conn, <=8 concurrent connections)
-Connection time [ms]: min 101.4 avg 103.0 max 127.8 median 102.5 stddev 2.7
-Connection time [ms]: connect 0.1
+Connection rate: 54.9 conn/s (18.2 ms/conn, <=17 concurrent connections)
+Connection time [ms]: min 149.9 avg 205.9 max 267.3 median 201.5 stddev 17.1
+Connection time [ms]: connect 0.2
 Connection length [replies/conn]: 1.000
 
-Request rate: 55.5 req/s (18.0 ms/req)
+Request rate: 54.9 req/s (18.2 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 55.0 avg 55.0 max 55.0 stddev 0.0 (1 samples)
-Reply time [ms]: response 102.5 transfer 0.4
+Reply rate [replies/s]: min 53.8 avg 53.8 max 53.8 stddev 0.0 (1 samples)
+Reply time [ms]: response 205.7 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 0.95 system 8.27 (user 10.3% system 89.6% total 100.0%)
-Net I/O: 13.9 KB/s (0.1*10^6 bps)
+CPU time [s]: user 1.91 system 7.41 (user 20.5% system 79.5% total 99.9%)
+Net I/O: 13.7 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=60 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 4
 
-Total: connections 512 requests 512 replies 512 test-duration 8.620 s
+Total: connections 512 requests 512 replies 512 test-duration 8.775 s
 
-Connection rate: 59.4 conn/s (16.8 ms/conn, <=8 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.8 max 126.0 median 102.5 stddev 2.6
+Connection rate: 58.3 conn/s (17.1 ms/conn, <=20 concurrent connections)
+Connection time [ms]: min 145.0 avg 206.3 max 316.9 median 201.5 stddev 17.9
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 59.4 req/s (16.8 ms/req)
+Request rate: 58.3 req/s (17.1 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 58.8 avg 58.8 max 58.8 stddev 0.0 (1 samples)
-Reply time [ms]: response 102.2 transfer 0.4
+Reply rate [replies/s]: min 57.6 avg 57.6 max 57.6 stddev 0.0 (1 samples)
+Reply time [ms]: response 206.2 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 0.81 system 7.81 (user 9.4% system 90.6% total 99.9%)
-Net I/O: 14.8 KB/s (0.1*10^6 bps)
+CPU time [s]: user 1.81 system 6.97 (user 20.6% system 79.4% total 100.0%)
+Net I/O: 14.6 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
 httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
 httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-ruby --rate=64 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
-Maximum connect burst length: 1
+Maximum connect burst length: 4
 
-Total: connections 512 requests 512 replies 512 test-duration 8.088 s
+Total: connections 512 requests 512 replies 512 test-duration 8.192 s
 
-Connection rate: 63.3 conn/s (15.8 ms/conn, <=9 concurrent connections)
-Connection time [ms]: min 101.3 avg 102.7 max 127.7 median 102.5 stddev 2.7
+Connection rate: 62.5 conn/s (16.0 ms/conn, <=20 concurrent connections)
+Connection time [ms]: min 145.0 avg 206.0 max 270.2 median 201.5 stddev 15.9
 Connection time [ms]: connect 0.1
 Connection length [replies/conn]: 1.000
 
-Request rate: 63.3 req/s (15.8 ms/req)
+Request rate: 62.5 req/s (16.0 ms/req)
 Request size [B]: 72.0
 
-Reply rate [replies/s]: min 62.8 avg 62.8 max 62.8 stddev 0.0 (1 samples)
-Reply time [ms]: response 102.1 transfer 0.5
+Reply rate [replies/s]: min 60.7 avg 60.7 max 60.7 stddev 0.0 (1 samples)
+Reply time [ms]: response 205.9 transfer 0.0
 Reply size [B]: header 173.0 content 11.0 footer 0.0 (total 184.0)
 Reply status: 1xx=0 2xx=512 3xx=0 4xx=0 5xx=0
 
-CPU time [s]: user 0.74 system 7.35 (user 9.1% system 90.9% total 100.0%)
-Net I/O: 15.8 KB/s (0.1*10^6 bps)
+CPU time [s]: user 1.80 system 6.45 (user 22.0% system 78.7% total 100.7%)
+Net I/O: 15.6 KB/s (0.1*10^6 bps)
 
 Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
 Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
