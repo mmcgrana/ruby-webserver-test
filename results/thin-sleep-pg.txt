@@ -1,0 +1,575 @@
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 8
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=8 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 512 requests 335 replies 0 test-duration 71.983 s
+
+Connection rate: 7.1 conn/s (140.6 ms/conn, <=49 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 713.2
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.7 req/s (214.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (14 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 8.41 system 63.58 (user 11.7% system 88.3% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 12
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=12 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 512 requests 267 replies 0 test-duration 50.171 s
+
+Connection rate: 10.2 conn/s (98.0 ms/conn, <=71 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 740.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (187.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (10 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 5.16 system 45.01 (user 10.3% system 89.7% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 16
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=16 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 512 requests 210 replies 0 test-duration 39.953 s
+
+Connection rate: 12.8 conn/s (78.0 ms/conn, <=90 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 862.5
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (190.3 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (7 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.59 system 36.37 (user 9.0% system 91.0% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 20
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=20 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 512 requests 169 replies 0 test-duration 32.880 s
+
+Connection rate: 15.6 conn/s (64.2 ms/conn, <=112 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 776.3
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.1 req/s (194.6 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (6 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.19 system 29.69 (user 9.7% system 90.3% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 24
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=24 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 512 requests 152 replies 0 test-duration 29.397 s
+
+Connection rate: 17.4 conn/s (57.4 ms/conn, <=132 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 873.6
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.2 req/s (193.4 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (5 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.56 system 26.84 (user 8.7% system 91.3% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 28
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=28 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 512 requests 143 replies 0 test-duration 26.252 s
+
+Connection rate: 19.5 conn/s (51.3 ms/conn, <=155 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 979.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.4 req/s (183.6 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (5 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.06 system 24.19 (user 7.9% system 92.1% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 32
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=32 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 512 requests 125 replies 0 test-duration 23.754 s
+
+Connection rate: 21.6 conn/s (46.4 ms/conn, <=172 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 810.6
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (190.0 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (4 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.98 system 21.78 (user 8.3% system 91.7% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 36
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=36 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 512 requests 110 replies 0 test-duration 21.948 s
+
+Connection rate: 23.3 conn/s (42.9 ms/conn, <=193 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1017.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.0 req/s (199.5 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (4 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.74 system 20.21 (user 7.9% system 92.1% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 40
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=40 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 512 requests 109 replies 0 test-duration 20.805 s
+
+Connection rate: 24.6 conn/s (40.6 ms/conn, <=219 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1087.2
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.2 req/s (190.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (4 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.57 system 19.23 (user 7.6% system 92.4% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 44
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=44 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 512 requests 92 replies 0 test-duration 19.227 s
+
+Connection rate: 26.6 conn/s (37.6 ms/conn, <=237 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1297.6
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.8 req/s (209.0 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.46 system 17.77 (user 7.6% system 92.4% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 48
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=48 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 512 requests 92 replies 0 test-duration 18.264 s
+
+Connection rate: 28.0 conn/s (35.7 ms/conn, <=259 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1042.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.0 req/s (198.5 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.34 system 16.92 (user 7.4% system 92.6% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 52
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=52 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 512 requests 84 replies 0 test-duration 17.154 s
+
+Connection rate: 29.8 conn/s (33.5 ms/conn, <=273 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1322.4
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.9 req/s (204.2 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.17 system 15.98 (user 6.8% system 93.2% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 56
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=56 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 512 requests 85 replies 0 test-duration 16.180 s
+
+Connection rate: 31.6 conn/s (31.6 ms/conn, <=300 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1149.1
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (190.4 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.20 system 14.98 (user 7.4% system 92.6% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 60
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=60 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 512 requests 86 replies 0 test-duration 15.861 s
+
+Connection rate: 32.3 conn/s (31.0 ms/conn, <=314 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1123.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.4 req/s (184.4 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.03 system 14.83 (user 6.5% system 93.5% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 64
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=64 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 512 requests 69 replies 0 test-duration 15.864 s
+
+Connection rate: 32.3 conn/s (31.0 ms/conn, <=333 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1048.0
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.3 req/s (229.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.21 system 14.65 (user 7.6% system 92.4% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 68
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=68 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 512 requests 81 replies 0 test-duration 15.385 s
+
+Connection rate: 33.3 conn/s (30.0 ms/conn, <=356 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 955.7
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (189.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (3 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.06 system 14.32 (user 6.9% system 93.1% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 72
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=72 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 512 requests 71 replies 0 test-duration 14.577 s
+
+Connection rate: 35.1 conn/s (28.5 ms/conn, <=372 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1036.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.9 req/s (205.3 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.02 system 13.56 (user 7.0% system 93.0% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 76
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=76 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 512 requests 74 replies 0 test-duration 14.488 s
+
+Connection rate: 35.3 conn/s (28.3 ms/conn, <=393 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1002.5
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.1 req/s (195.8 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.20 system 13.29 (user 8.3% system 91.7% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 80
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=80 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 512 requests 81 replies 0 test-duration 14.013 s
+
+Connection rate: 36.5 conn/s (27.4 ms/conn, <=423 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1182.8
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.8 req/s (173.0 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 0.94 system 13.08 (user 6.7% system 93.3% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 84
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=84 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 512 requests 75 replies 0 test-duration 14.025 s
+
+Connection rate: 36.5 conn/s (27.4 ms/conn, <=436 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 996.4
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.3 req/s (187.0 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 0.96 system 13.06 (user 6.8% system 93.2% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 88
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=88 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 512 requests 71 replies 0 test-duration 12.832 s
+
+Connection rate: 39.9 conn/s (25.1 ms/conn, <=452 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 882.9
+Connection length [replies/conn]: 0.000
+
+Request rate: 5.5 req/s (180.7 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 0.69 system 12.14 (user 5.4% system 94.6% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 92
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=92 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 512 requests 63 replies 0 test-duration 13.632 s
+
+Connection rate: 37.6 conn/s (26.6 ms/conn, <=467 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1053.6
+Connection length [replies/conn]: 0.000
+
+Request rate: 4.6 req/s (216.4 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.05 system 12.58 (user 7.7% system 92.3% total 100.0%)
+Net I/O: 0.3 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+Zero replies received, test invalid: rate 96
+httperf --timeout=5 --client=0/1 --server=localhost --port=5000 --uri=/sleep-pg --rate=96 --send-buffer=4096 --recv-buffer=16384 --num-conns=512 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 512 requests 77 replies 0 test-duration 12.667 s
+
+Connection rate: 40.4 conn/s (24.7 ms/conn, <=490 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 1286.3
+Connection length [replies/conn]: 0.000
+
+Request rate: 6.1 req/s (164.5 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 0.96 system 11.71 (user 7.5% system 92.5% total 100.0%)
+Net I/O: 0.4 KB/s (0.0*10^6 bps)
+
+Errors: total 512 client-timo 512 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
