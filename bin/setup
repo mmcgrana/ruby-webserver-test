@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+set -x
+
+brew install httperf
+brew install autobench
+brew install gnuplot
+brew install gawk
+sed -i -e 's/data style/style data/' /usr/local/bin/bench2graph
+sed -i -e 's/bin\/sh/bin\/bash/' /usr/local/bin/bench2graph
+mkdir -p results

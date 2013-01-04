@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -e
+set -x
+
+SERVER=$1
+ENDPOINT=$2
+
+export NAME=$SERVER-$ENDPOINT
+autobench \
+  --single_host \
+  --host1 localhost \
+  --port1 5000 \
+  --uri1 "/$ENDPOINT" \
+  --low_rate 4 \
+  --high_rate 64 \
+  --rate_step 4 \
+  --num_call 1 \
+  --num_conn 512 \
+  --timeout 5 \
+  --file results/$NAME.tsv 2>&1 | tee results/$NAME.txt
+rm -f results/$NAME.ps
+echo "$NAME" | bench2graph results/$NAME.tsv results/$NAME.ps 1 5 7 && echo
+ps2pdf results/$NAME.ps results/$NAME.pdf
