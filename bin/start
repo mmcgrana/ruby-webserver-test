@@ -5,4 +5,4 @@ set -x
 
 export SERVER=$1
 
-foreman start
+exec bundle exec rackup -s $SERVER -p 5000
