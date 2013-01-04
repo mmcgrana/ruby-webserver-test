@@ -32,3 +32,8 @@ cd ..
 git clone https://github.com/mmcgrana/ruby-webserver-test.git
 cd ruby-webserver-test
 bundle install
+
+sudo -u postgres createdb ruby_webserver_test
+
+echo "run `\\password postgres` and set it to 'password'"
+sudo -u postgres psql postgres

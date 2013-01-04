@@ -4,7 +4,7 @@ set -e
 set -x
 
 export SERVER=$1
-export DATABASE_URL=postgres://localhost:5432/ruby_webserver_test
+export DATABASE_URL=postgres://postgres:password@localhost:5432/ruby_webserver_test
 export PORT=5000
 
 exec bundle exec rackup -s $SERVER -p $PORT
