@@ -3,10 +3,21 @@
 set -e
 set -x
 
-brew install httperf
-brew install autobench
-brew install gnuplot
-brew install gawk
-sed -i -e 's/data style/style data/' /usr/local/bin/bench2graph
-sed -i -e 's/bin\/sh/bin\/bash/' /usr/local/bin/bench2graph
+sudo apt-get update
+sudo apt-get install httperf
+sudo apt-get install gnuplot
+sudo apt-get install gawk
+sudo apt-get install git
+sudo apt-get install build-essential
+
+git clone https://github.com/menavaur/Autobench.git
+cd Autobench
+make
+sudo make install
+cd ..
+#sed -i -e 's/bin\/sh/bin\/bash/' /usr/local/bin/bench2graph
+
+git clone https://github.com/mmcgrana/ruby-server-test
+...
+
 mkdir -p results
