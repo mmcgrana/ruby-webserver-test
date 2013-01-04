@@ -12,8 +12,8 @@ autobench \
   --host1 localhost \
   --port1 5000 \
   --uri1 "/$ENDPOINT" \
-  --low_rate 4 \
-  --high_rate 64 \
+  --low_rate 8 \
+  --high_rate 98 \
   --rate_step 4 \
   --num_call 1 \
   --num_conn 512 \
