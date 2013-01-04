@@ -2,8 +2,9 @@
 
 ## Usage
 
-$ bin/setup
+Provision a 12.04 EC2 instance, SSH in as the ubuntu users, and run `bin/setup`. Then:
 
+```console
 $ bin/start thin
 $ bin/run thin no-op
 $ bin/run thin sleep-ruby
@@ -20,3 +21,4 @@ $ bin/run mongrel sleep-ruby
 $ bin/run mongrel sleep-pg
 
 $ bin/open
+```

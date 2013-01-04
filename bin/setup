@@ -3,12 +3,24 @@
 set -e
 set -x
 
-sudo apt-get update
-sudo apt-get install httperf
-sudo apt-get install gnuplot
-sudo apt-get install gawk
-sudo apt-get install git
-sudo apt-get install build-essential
+sudo apt-get -y update
+sudo apt-get -y install httperf
+sudo apt-get -y install gnuplot
+sudo apt-get -y install gawk
+sudo apt-get -y install build-essential git-core
+sudo apt-get -y install zlib1g-dev libssl-dev libreadline-dev libyaml-dev 
+libcurl4-openssl-dev curl git-core python-software-properties
+sudo apt-get -y install libpq-dev postgresql
+
+wget http://rubyforge.org/frs/download.php/76064/ruby-1.9.2-p320.tar.gz
+tar -xvzf ruby-1.9.2-p320.tar.gz
+cd ruby-1.9.2-p320/
+./configure
+make
+sudo make install
+echo "gem: --no-ri --no-rdoc" >> ~/.gemrc
+sudo gem install bundler foreman
+cd ..
 
 git clone https://github.com/menavaur/Autobench.git
 cd Autobench
@@ -17,7 +29,6 @@ sudo make install
 cd ..
 #sed -i -e 's/bin\/sh/bin\/bash/' /usr/local/bin/bench2graph
 
-git clone https://github.com/mmcgrana/ruby-server-test
-...
-
-mkdir -p results
+git clone https://github.com/mmcgrana/ruby-webserver-test.git
+cd ruby-webserver-test
+bundle install
