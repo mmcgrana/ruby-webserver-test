@@ -8,12 +8,12 @@ class Web < Sinatra::Base
   	"no-op\n"
   end
 
-  get "/ruby-sleep" do
+  get "/sleep-ruby" do
   	sleep(0.100)
   	"ruby-sleep\n"
   end
 
-  get "/pg-sleep" do
+  get "/sleep-pg" do
   	DB.run("select pg_sleep(0.100)")
   	"pg-sleep\n"
   end
