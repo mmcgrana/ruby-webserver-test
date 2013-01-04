@@ -1,7 +1,7 @@
 require "sinatra/base"
 require "sequel"
 
-DB = Sequel.connect(ENV["DATABASE_URL"], max_connections: 5)
+DB = Sequel.connect(ENV["DATABASE_URL"], max_connections: 16)
 
 class Web < Sinatra::Base
   get "/no-op" do
