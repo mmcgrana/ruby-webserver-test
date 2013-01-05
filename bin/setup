@@ -26,7 +26,6 @@ cd Autobench
 make
 sudo make install
 cd ..
-#sed -i -e 's/bin\/sh/bin\/bash/' /usr/local/bin/bench2graph
 
 git clone https://github.com/mmcgrana/ruby-webserver-test.git
 cd ruby-webserver-test
