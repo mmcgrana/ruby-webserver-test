@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "ubuntu soft nofile 65535" >> /etc/security/limits.conf
+echo "ubuntu hard nofile 65535" >> /etc/security/limits.conf
