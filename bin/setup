@@ -8,8 +8,7 @@ sudo apt-get -y install httperf
 sudo apt-get -y install gnuplot
 sudo apt-get -y install gawk
 sudo apt-get -y install build-essential git-core
-sudo apt-get -y install zlib1g-dev libssl-dev libreadline-dev libyaml-dev 
-libcurl4-openssl-dev curl git-core python-software-properties
+sudo apt-get -y install zlib1g-dev libssl-dev libreadline-dev libyaml-dev libcurl4-openssl-dev curl git-core python-software-properties
 sudo apt-get -y install libpq-dev postgresql
 
 wget http://rubyforge.org/frs/download.php/76064/ruby-1.9.2-p320.tar.gz
