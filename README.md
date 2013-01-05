@@ -2,9 +2,7 @@
 
 This repo contains methods and corresponding results for smoke tests of Thin, Mongrel, and Puma web servers under moderate concurrent HTTP load.
 
-The goal is to evaluate response latency from these servers as they handle concurrent, long-running requests. This reflects typical CRUD-web-app deployment conditions, e.g. apps that make blocking database calls.
-
-We're specifically not interested in throughput, especially of short-running requests.
+The goal is to evaluate response rates and latency from these servers as they handle concurrent, long-running requests. This reflects typical CRUD-web-app scenarious, e.g. apps making blocking database calls.
 
 
 ## Results
